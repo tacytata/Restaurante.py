@@ -1,7 +1,7 @@
 # 1 criar uma classe Restaurante
 class Restaurante:
     nome=''
-    categoria='churrascaria'
+    categoria=''
     ativo=False
 
 # 2 criação de objetos
