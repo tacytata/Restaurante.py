@@ -32,4 +32,4 @@ restaurante_pizza=Restaurante('Pizza Express', 'Italiana')
 #print('')
 
 # 5 consumindo o método listar_restaurantes
-Restaurantes.listar_restaurantes()
+Restaurante.listar_restaurantes()
