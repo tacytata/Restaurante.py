@@ -14,6 +14,7 @@ class Restaurante:
 
     # 4 criar um método para listar os restaurantes
     # método de classe
+    @classmethod
     def listar_restaurantes(cls):
         print(f'{'Nome do restaurante'.ljust(20)} | {'Categoria'.ljust(20)} | {'Status'}')
         for restaurante in cls.restaurantes:
