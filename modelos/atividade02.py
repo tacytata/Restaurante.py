@@ -47,13 +47,13 @@ class Restaurante:
         for restaurante in Restaurante.restaurantes:
             print(f'{restaurante.nome} | {restaurante.categoria} | {restaurante.localizacao} | {restaurante.estrelas} | {restaurante.ativo}')
 
-            restaurante_centro=Restaurante('Centro', 'Oriental', 'Japão', '5')
+restaurante_centro=Restaurante('Centro', 'Oriental', 'Japão', '5')
 
 # 5 Atividade
 class Cliente:
     clientes=[]
 
-    def __init__(self,nome,idade,cidade,nascimento):
+    def __init__(self,nome,idade,pais,nascimento):
         self.nome=nome
         self.idade=idade
         self.pais=pais
@@ -68,11 +68,11 @@ class Cliente:
         for cliente in Cliente.clientes:
             print(f'{cliente.nome} | {cliente.idade} | {cliente.pais} | {cliente.nascimento}')
 
-            cliente_Natan=Cliente('Natan', '20', 'Brasil', '2004')
-            cliente_Yara=Cliente('Yara', '23', 'Japão', '2001')
-            cliente_Filipa=Cliente('Filipa', '18', 'Dinamarca', '2006')
+cliente_Natan=Cliente('Natan', '20', 'Brasil', '2004')
+cliente_Yara=Cliente('Yara', '23', 'Japão', '2001')
+cliente_Filipa=Cliente('Filipa', '18', 'Dinamarca', '2006')
 
-    Cliente.listar_clientes()
+Cliente.listar_clientes()
     # atividade
 
 

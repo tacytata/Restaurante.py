@@ -15,10 +15,17 @@ restaurante_japones.alternar_estado()
 restaurante_praca.receber_avaliacao('Alvira',8)
 restaurante_praca.receber_avaliacao('Lupita',5.5)
 
+restaurante_mexicano.receber_avaliacao('Pedro',9)
+restaurante_mexicano.receber_avaliacao('Laura',5)
+restaurante_mexicano.receber_avaliacao('Luiza',6)
+
+restaurante_japones.receber_avaliacao('Verônica',3)
+restaurante_japones.receber_avaliacao('Alvaro',2)
+restaurante_japones.receber_avaliacao('Luis',5)
+
 
 # 2 criando a chamada da função de entrada
 def main():
-    pass
 
 # 5 inserir uma ação dentro do main
     Restaurante.listar_restaurantes()
